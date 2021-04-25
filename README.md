@@ -1,5 +1,6 @@
-<h1 align="center">
-![podcastr](https://github.com/sestevao/podcastrnext/blob/main/.github/logo.svg) Podcastrnext</h1>
+<img src="https://github.com/sestevao/podcastrnext/blob/main/.github/logo.svg" align="center"/>
+
+<h1 align="center">Podcastrnext</h1>
 
 ### About 
 
