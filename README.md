@@ -1,5 +1,7 @@
 <h1 align="center">Podcastrnext</h1>
 
+![podcastr](https://github.com/sestevao/podcastrnext/blob/main/.github/logo.svg)
+
 ### About 
 
 Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you even closer to the best technology podcasts!
