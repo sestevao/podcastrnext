@@ -4,7 +4,7 @@
 
 # 👀 About 
 
-Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you even closer to the best technology podcasts! This is a project developed during Application built on the ** React.js ** track from ** Next Level Week # 05 ** by [@rocketseat](https://rocketseat.com.br/) during days 19 to 25 April 2021.
+Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you even closer to the best technology podcasts! This is a project developed during Application built on the **React.js** track from **Next Level Week # 05** by [@rocketseat](https://rocketseat.com.br/) during days 19 to 25 April 2021.
 
 <br>
 
@@ -22,6 +22,7 @@ Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you
 - [ReactJS](https://reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Next.js](https://nextjs.org/)
+
 - [SASSS](https://sass-lang.com/)
 - [date-fns](https://date-fns.org/)
 - [json-server](https://github.com/typicode/json-server)
