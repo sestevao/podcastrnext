@@ -1,5 +1,4 @@
-<img src="https://github.com/sestevao/podcastrnext/blob/main/.github/logo.svg" align="center"/>
-<h1 align="center">Podcastrnext</h1>
+<img src="https://github.com/sestevao/podcastrnext/blob/main/.github/logo.svg" style="text-align:center" />
 
 <br>
 
