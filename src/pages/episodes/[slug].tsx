@@ -24,22 +24,24 @@ type EpisodeProps = {
 }
 
 export default function Episode({ episode }: EpisodeProps) {
+  
+
   return (
     <div className={styles.episode}>
       <div className={styles.thumbnailContainer}>
         <Link href="/">
-          <button type="button"><img src="/arrow-left.svg" alt="Back"/></button>
+          <button type="button"><img src="/arrow-left.svg" alt="Back" /></button>
         </Link>
 
-        <Image 
-          width={700} 
-          height={160} 
-          src={episode.thumbnail} 
+        <Image
+          width={700}
+          height={160}
+          src={episode.thumbnail}
           alt={episode.title}
-          objectFit="cover" 
+          objectFit="cover"
         />
 
-        <button type="button"><img src="/play.svg" alt="Play episode"/></button>
+        <button type="button"><img src="/play.svg" alt="Play episode" /></button>
       </div>
 
       <header>
@@ -49,14 +51,30 @@ export default function Episode({ episode }: EpisodeProps) {
         <span> {episode.durationAsString} </span>
       </header>
 
-      <div className={styles.description} dangerouslySetInnerHTML={{ __html: episode.description}} />
+      <div className={styles.description} dangerouslySetInnerHTML={{ __html: episode.description }} />
     </div>
   )
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
+  const { data } = await api.get('/episodes', {
+    params: {
+      _limit: 2,
+      _sort: "published_ad",
+      _order: "desc"
+    }
+  })
+
+  const paths = data.map(episode => {
+    return {
+      params: {
+        slug: episode.id
+      }
+    }
+  })
+
   return {
-    paths: [],
+    paths,
     fallback: 'blocking'
   }
 }

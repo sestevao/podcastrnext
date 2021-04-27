@@ -23,10 +23,14 @@ Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you
 - [Typescript](https://www.typescriptlang.org/)
 - [Next.js](https://nextjs.org/)
 
-- [SASSS](https://sass-lang.com/)
+<br>
+
+- [sass](https://sass-lang.com/)
 - [date-fns](https://date-fns.org/)
 - [json-server](https://github.com/typicode/json-server)
 - [axios](https://github.com/axios/axios)
+- [rc-slider](https://github.com/schrodinger/rc-slider)
+- [audio](https://reactjsexample.com/a-simple-react-wrapper-on-the-html5-audio-tag/)
 
 <br>
 
