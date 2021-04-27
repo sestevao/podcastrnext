@@ -48,7 +48,7 @@ Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you
 - [Figma](https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/Podcastr/duplicate?node-id=160%3A2761)
 - [Notion](https://www.notion.so/Trilha-ReactJS-9e6bfe82f2d047fa805935a3242e7952)
 - [Deploy Podcastr](https://www.notion.so/Deploy-Podcastr-2142f78ad75c4b32b2e4dc9e22c46189)
-- [My notes](https://www.notion.so/Trilha-ReactJS-com-NextJS-fac35cbd50f04d47a2908699ba0dd91c)
+- [My notes on NOTION](https://www.notion.so/Trilha-ReactJS-com-NextJS-fac35cbd50f04d47a2908699ba0dd91c)
 
 <br>
 
