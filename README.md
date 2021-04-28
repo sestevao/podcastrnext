@@ -1,6 +1,12 @@
-<img src="https://github.com/sestevao/podcastrnext/blob/main/.github/logo.svg" style="text-align:center" />
+<img src="https://raw.githubusercontent.com/sestevao/podcastrnext/1dc05eea27f0c179075a87e3b1ea4234a12cf2c5/.github/logo.svg" style="margin-left:auto; margin-right:auto; display:block;" />
 
 <br>
+
+<div style="display:flex; justify-content:center;">
+  <img src="https://github.com/sestevao/podcastrnext/blob/main/.github/home.png?raw=true" width=500 height=300 style="border-radius:5px; padding-right:20px;"/>
+
+  <img src="https://github.com/sestevao/podcastrnext/blob/main/.github/episode.png?raw=true" width=500 height=300 style="border-radius:5px;"/>
+</div>
 
 # 👀 About 
 
