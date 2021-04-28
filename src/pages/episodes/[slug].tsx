@@ -1,10 +1,13 @@
-import { format, parseISO } from 'date-fns'
-import Image from 'next/image'
-import Link from 'next/link'
 import { GetStaticPaths, GetStaticProps } from 'next'
+import Image from 'next/image'
+import Head from 'next/head'
+import Link from 'next/link'
+import { format, parseISO } from 'date-fns'
 
 import { api } from '../../services/api'
 import { convertDurationToTimeString } from '../../utils/ConvertDurationToTimeString'
+import { usePlayer } from '../../contexts/PlayerContext'
+
 import styles from './episode.module.scss'
 
 type Episode = {
@@ -24,10 +27,14 @@ type EpisodeProps = {
 }
 
 export default function Episode({ episode }: EpisodeProps) {
-  
+  const { play } = usePlayer()
 
   return (
     <div className={styles.episode}>
+      <Head>
+        <title>{episode.title} | Podcastr</title>
+      </Head>
+
       <div className={styles.thumbnailContainer}>
         <Link href="/">
           <button type="button"><img src="/arrow-left.svg" alt="Back" /></button>
@@ -41,7 +48,9 @@ export default function Episode({ episode }: EpisodeProps) {
           objectFit="cover"
         />
 
-        <button type="button"><img src="/play.svg" alt="Play episode" /></button>
+        <button type="button" onClick={() => play(episode)}>
+          <img src="/play.svg" alt="Play episode" />
+        </button>
       </div>
 
       <header>
@@ -51,7 +60,10 @@ export default function Episode({ episode }: EpisodeProps) {
         <span> {episode.durationAsString} </span>
       </header>
 
-      <div className={styles.description} dangerouslySetInnerHTML={{ __html: episode.description }} />
+      <div
+        className={styles.description}
+        dangerouslySetInnerHTML={{ __html: episode.description }}
+      />
     </div>
   )
 }

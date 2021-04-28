@@ -32,6 +32,7 @@ Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you
 - [rc-slider](https://github.com/schrodinger/rc-slider)
 - [audio](https://reactjsexample.com/a-simple-react-wrapper-on-the-html5-audio-tag/)
 
+
 <br>
 
 # 🛠 Prerequisites
@@ -63,4 +64,8 @@ $ cd podcastrnext
 $ yarn 
 # Start the project
 $ yarn dev
+# Run the API feak
+$ yarn server
 ```
+
+
