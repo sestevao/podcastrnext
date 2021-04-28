@@ -3,9 +3,9 @@
 <br>
 
 <div style="display:flex; justify-content:center;">
-  <img src="https://github.com/sestevao/podcastrnext/blob/main/.github/home.png?raw=true" width=500 height=300 style="border-radius:5px; padding-right:20px;"/>
+  <img src="https://github.com/sestevao/podcastrnext/blob/main/.github/home.png?raw=true" width=450 height=250 style="border-radius:5px; padding-right:20px;"/>
 
-  <img src="https://github.com/sestevao/podcastrnext/blob/main/.github/episode.png?raw=true" width=500 height=300 style="border-radius:5px;"/>
+  <img src="https://github.com/sestevao/podcastrnext/blob/main/.github/episode.png?raw=true" width=450 height=250 style="border-radius:5px;"/>
 </div>
 
 # 👀 About 
