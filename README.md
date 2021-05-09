@@ -16,10 +16,10 @@ Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you
 
 # 🚀 Features
 
-- List all episodes
-- List the last two releases
-- Create a player to play the podcast
-- Create a content page for each podcast
+- [x] List all episodes
+- [x] List the last two releases
+- [x] Create a player to play the podcast
+- [x] Create a content page for each podcast
 
 <br>
 
@@ -37,7 +37,6 @@ Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you
 - [axios](https://github.com/axios/axios)
 - [rc-slider](https://github.com/schrodinger/rc-slider)
 - [audio](https://reactjsexample.com/a-simple-react-wrapper-on-the-html5-audio-tag/)
-
 
 <br>
 
@@ -73,5 +72,3 @@ $ yarn dev
 # Run the API feak
 $ yarn server
 ```
-
-
