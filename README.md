@@ -8,13 +8,13 @@
   <img src="https://github.com/sestevao/podcastrnext/blob/main/.github/episode.png?raw=true" width=400 height=230 style="border-radius:5px;"/>
 </div>
 
-# 👀 About 
+## 👀 About 
 
 Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you even closer to the best technology podcasts! This is a project developed during Application built on the **React.js** track from **Next Level Week #05** by [@rocketseat](https://rocketseat.com.br/) during days 19 to 25 April 2021.
 
 <br>
 
-# 🚀 Features
+## 🚀 Features
 
 - List all episodes
 - List the last two releases
@@ -23,7 +23,7 @@ Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you
 
 <br>
 
-# 💻 Technologies
+## 💻 Technologies
 
 - [ReactJS](https://reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
@@ -41,7 +41,7 @@ Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you
 
 <br>
 
-# 🛠 Prerequisites
+## 🛠 Prerequisites
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en/)
@@ -50,7 +50,7 @@ Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you
 
 <br>
 
-# 🔖 Documents
+## 🔖 Documents
 
 - [Figma](https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/Podcastr/duplicate?node-id=160%3A2761)
 - [Notion](https://www.notion.so/Trilha-ReactJS-9e6bfe82f2d047fa805935a3242e7952)
@@ -59,7 +59,7 @@ Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you
 
 <br>
 
-# 👷 Getting started
+## 👷 Getting started
 
 ```bash
 # Clone the project 
