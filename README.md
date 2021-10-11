@@ -10,7 +10,7 @@
 This is a project developed during Application built on the **React.js** track from **Next Level Week #05** by [@rocketseat](https://rocketseat.com.br/) during days 19 to 25 April 2021.
 
 <div style="display:flex; justify-content:center;">
-  <img src="https://github.com/sestevao/podcastrnext/blob/main/.github/Podcastr.png" width=400 height=230 style="border-radius:5px; padding-right:20px;"/>
+  <img src="https://github.com/sestevao/podcastrnext/blob/main/.github/Podcastr.png"/>
 </div>
 
 ## 🛠️ Features
