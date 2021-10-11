@@ -19,7 +19,6 @@ This is a project developed during Application built on the **React.js** track f
 - [x] List the last two releases
 - [x] Create a player to play the podcast
 - [x] Create a content page for each podcast
-
 - [x] Play podcast.
 - [x] When one podcast ends, another begins right away.
 - [x] Select only one podcast to listen to.
