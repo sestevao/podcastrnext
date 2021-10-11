@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sestevao/podcastrnext/1dc05eea27f0c179075a87e3b1ea4234a12cf2c5/.github/favicon.svg" alt="icon" width="150" />
+  <img src="https://github.com/sestevao/podcastrnext/blob/main/.github/favicon.png" alt="icon" width="150" />
   <pre>🎧 The best for you to hear, always 🎧</pre>
 </div>
 
