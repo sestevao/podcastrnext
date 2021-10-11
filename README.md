@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sestevao/podcastrnext/1dc05eea27f0c179075a87e3b1ea4234a12cf2c5/.github/logo.svg" alt="icon" width="150" />
+  <img src="https://raw.githubusercontent.com/sestevao/podcastrnext/1dc05eea27f0c179075a87e3b1ea4234a12cf2c5/.github/favicon.svg" alt="icon" width="150" />
   <pre>🎧 The best for you to hear, always 🎧</pre>
 </div>
 
@@ -19,13 +19,13 @@ This is a project developed during Application built on the **React.js** track f
 - [x] List the last two releases
 - [x] Create a player to play the podcast
 - [x] Create a content page for each podcast
-- [x] Play podcast.
-- [x] When one podcast ends, another begins right away.
-- [x] Select only one podcast to listen to.
-- [x] Option to go to the next podcast.
-- [x] Option to go to the previous podcast.
-- [x] Loop option.
-- [x] Option to shuffle.
+- [x] Play podcast
+- [x] When one podcast ends, another begins right away
+- [x] Select only one podcast to listen to
+- [x] Option to go to the next podcast
+- [x] Option to go to the previous podcast
+- [x] Loop option
+- [x] Option to shuffle
 
 ## 🚀 Requirements
 
@@ -52,7 +52,7 @@ This is a project developed during Application built on the **React.js** track f
 - [Deploy Podcastr](https://www.notion.so/Deploy-Podcastr-2142f78ad75c4b32b2e4dc9e22c46189)
 - [My notes on NOTION](https://www.notion.so/Trilha-ReactJS-com-NextJS-fac35cbd50f04d47a2908699ba0dd91c)
 
-## 🚀 Getting started
+## ✅ Getting started
 
 ```bash
 # Clone the project and Access the folder
