@@ -1,36 +1,44 @@
-<img src="https://raw.githubusercontent.com/sestevao/podcastrnext/1dc05eea27f0c179075a87e3b1ea4234a12cf2c5/.github/logo.svg" style="margin-left:auto; margin-right:auto; display:block;" />
-
-<br>
-
-<div style="display:flex; justify-content:center;">
-  <img src="https://github.com/sestevao/podcastrnext/blob/main/.github/home.png?raw=true" width=400 height=230 style="border-radius:5px; padding-right:20px;"/>
-
-  <img src="https://github.com/sestevao/podcastrnext/blob/main/.github/episode.png?raw=true" width=400 height=230 style="border-radius:5px;"/>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/sestevao/podcastrnext/1dc05eea27f0c179075a87e3b1ea4234a12cf2c5/.github/logo.svg" alt="icon" width="150" />
+  <pre>🎧 The best for you to hear, always 🎧</pre>
 </div>
 
-## 👀 About 
+## 💻 About the Project
 
-Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you even closer to the best technology podcasts! This is a project developed during Application built on the **React.js** track from **Next Level Week #05** by [@rocketseat](https://rocketseat.com.br/) during days 19 to 25 April 2021.
+`Podcastr` is a platform built for podcast broadcasting. This is a web application that allows users to listen to their favorite podcasts, see the latest releases and get more information on the podcasts they are currently listening to.
 
-<br>
+This is a project developed during Application built on the **React.js** track from **Next Level Week #05** by [@rocketseat](https://rocketseat.com.br/) during days 19 to 25 April 2021.
 
-## 🚀 Features
+<div style="display:flex; justify-content:center;">
+  <img src="https://github.com/sestevao/podcastrnext/blob/main/.github/Podcastr.png" width=400 height=230 style="border-radius:5px; padding-right:20px;"/>
+</div>
+
+## 🛠️ Features
 
 - [x] List all episodes
 - [x] List the last two releases
 - [x] Create a player to play the podcast
 - [x] Create a content page for each podcast
 
-<br>
+- [x] Play podcast.
+- [x] When one podcast ends, another begins right away.
+- [x] Select only one podcast to listen to.
+- [x] Option to go to the next podcast.
+- [x] Option to go to the previous podcast.
+- [x] Loop option.
+- [x] Option to shuffle.
 
-## 💻 Technologies
+## 🚀 Requirements
 
-- [ReactJS](https://reactjs.org/)
-- [Typescript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/en/)
+- [React JS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [yarn](https://yarnpkg.com/)
+- [vscode](https://code.visualstudio.com/)
+
+## ✨ Technologies
+
 - [Next.js](https://nextjs.org/)
-
-<br>
-
 - [sass](https://sass-lang.com/)
 - [date-fns](https://date-fns.org/)
 - [json-server](https://github.com/typicode/json-server)
@@ -38,37 +46,42 @@ Podcastr is a platform built for podcast broadcasting. Podcastrnext to bring you
 - [rc-slider](https://github.com/schrodinger/rc-slider)
 - [audio](https://reactjsexample.com/a-simple-react-wrapper-on-the-html5-audio-tag/)
 
-<br>
-
-## 🛠 Prerequisites
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/)
-- [vscode](https://code.visualstudio.com/)
-
-<br>
-
-## 🔖 Documents
+## 🎨 Documents
 
 - [Figma](https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/Podcastr/duplicate?node-id=160%3A2761)
 - [Notion](https://www.notion.so/Trilha-ReactJS-9e6bfe82f2d047fa805935a3242e7952)
 - [Deploy Podcastr](https://www.notion.so/Deploy-Podcastr-2142f78ad75c4b32b2e4dc9e22c46189)
 - [My notes on NOTION](https://www.notion.so/Trilha-ReactJS-com-NextJS-fac35cbd50f04d47a2908699ba0dd91c)
 
-<br>
-
-## 👷 Getting started
+## 🚀 Getting started
 
 ```bash
-# Clone the project 
-$ git clone https://github.com/sestevao/podcastrnext
-# Access the folder
+# Clone the project and Access the folder
+$ gh repo clone sestevao/podcastrnext
 $ cd podcastrnext
+
 # Install the dependencies
-$ yarn 
+$ yarn
+
 # Start the project
 $ yarn dev
+
 # Run the API feak
 $ yarn server
 ```
+
+## 🔥 Adding functionalities
+
+- Few adjustments to make the style equal to the layout
+- Add Media queries
+- Create Theme Switcher
+- Create Dark Theme
+- Add PWA Feature
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<hr />
+
+<small>made with 💜 by sestevao 👋</small>
