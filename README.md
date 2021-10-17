@@ -56,7 +56,7 @@ This is a project developed during Application built on the **React.js** track f
 
 ```bash
 # Clone the project and Access the folder
-$ gh repo clone sestevao/podcastrnext
+$ git clone https://github.com/sestevao/podcastrnext.git
 $ cd podcastrnext
 
 # Install the dependencies
@@ -71,11 +71,11 @@ $ yarn server
 
 ## 🔥 Adding functionalities
 
-- Few adjustments to make the style equal to the layout
-- Add Media queries
-- Create Theme Switcher
-- Create Dark Theme
-- Add PWA Feature
+- [ ] Few adjustments to make the style equal to the layout
+- [ ] Add Media queries
+- [ ] Create Theme Switcher
+- [ ] Create Dark Theme
+- [ ] Add PWA Feature
 
 ## 📝 License
 
