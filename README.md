@@ -81,6 +81,6 @@ $ yarn server
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<hr />
+---
 
-<small>made with 💜 by sestevao 👋</small>
+<p align="center"><sub>made with 💜 by sestevao</sub></p>
