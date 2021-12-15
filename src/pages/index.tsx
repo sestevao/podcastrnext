@@ -5,7 +5,9 @@ import Link from 'next/link'
 import { format, parseISO } from 'date-fns'
 
 import { convertDurationToTimeString } from '../utils/ConvertDurationToTimeString'
+
 import { api } from '../services/api'
+
 import { usePlayer } from '../contexts/PlayerContext'
 
 import styles from './home.module.scss'

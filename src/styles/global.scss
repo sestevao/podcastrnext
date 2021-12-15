@@ -5,20 +5,31 @@
 }
 
 :root {
-  --white: #FFF;
-  --gray-50: #F7F8FA;
-  --gray-100: #E6E8EB;
-  --gray-200: #AFB2B1;
+  --white: #fff;
+
+  --gray-50: #f7f8fa;
+  --gray-100: #e6e8eb;
+  --gray-200: #afb2b1;
   --gray-500: #808080;
-  --gray-800: #494D4B;
-  --green-500: #04D361;
-  --purple-300: #9F75FF;
-  --purple-400: #9164FA;
-  --purple-500: #8257E5;
-  --purple-800: #6F48C9;
+  --gray-800: #494d4b;
+
+  --green-500: #04d361;
+
+  --purple-300: #9f75ff;
+  --purple-400: #9164fa;
+  --purple-500: #8257e5;
+  --purple-800: #6f48c9;
+
+  // darkMode
+  --dark-background: #121214;
+  --dark-background-lighter: #212025;
 }
 
-@media (max-width: 1080px) {
+html {
+  font-size: 81.25%; // 13px
+}
+
+@media (max-width: 1366px) {
   html {
     font-size: 93.75%; //15px
   }
@@ -30,9 +41,10 @@
   }
 }
 
-
 body {
   background: var(--gray-50);
+  overflow: hidden;
+  transition: all 0.1s ease-in-out;
 }
 
 body,
@@ -41,7 +53,7 @@ textarea,
 button {
   font: 500 1rem Inter sans-serif;
   color: var(--gray-500);
-
+  outline: none;
 }
 
 h1,
@@ -65,4 +77,60 @@ h2 {
 
 button {
   cursor: pointer;
+}
+
+.darkMode {
+  background: var(--dark-background);
+  color: var(--gray-50);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--gray-100);
+  }
+
+  p {
+    color: var(--gray-50);
+  }
+
+  table td a {
+    color: var(--gray-50);
+  }
+
+  main {
+    header#appHeader {
+      background: var(--dark-background-lighter);
+      border-bottom: 1px solid var(--dark-background-lighter);
+    }
+
+    header#info {
+      border-bottom: 1px solid var(--dark-background-lighter);
+    }
+  }
+
+  .home .home_latestEpisodes ul li {
+    background: var(--dark-background-lighter);
+    border: 0;
+  }
+
+  .latestEpisodes {
+    background: var(--dark-background-lighter);
+  }
+
+  .home .home_allEpisodes ul li {
+    background: var(--dark-background-lighter);
+    border: 0;
+  }
+
+  .allEpisodes {
+    background: var(--dark-background);
+  }
+}
+
+.scrollableContent {
+  height: calc(100vh - 6.5rem);
+  overflow-y: auto;
 }
